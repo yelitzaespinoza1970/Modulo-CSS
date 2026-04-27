@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.ejercicio8 {
+  background-color: rgb(154, 248, 92);
+}
+
+header.ejercicio8 figure {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 5px;
+}
+
+header.ejercicio8 figure img {
+  max-width: 100px;
+}
+header.ejercicio8 h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #414040;
+}
+
+nav.menu {
+  background-color: rgb(77, 155, 94);
+  padding: 10px 20px;
+}
+
+nav.menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  gap: 10px;
+}
+
+nav.menu li + li:before {
+  content: " | ";
+  margin-right: 5px;
+  color: white;
+}
+nav.menu ul a {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+section.hero img {
+  max-width: 100%;
+  height: 30%;
+  margin-bottom: 20px;
+}
+
+article.booking {
+  padding: 20px;
+  border: 5px solid black;
+  margin-bottom: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+article.booking h2 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+article.booking p {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+article.booking i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+article.casasrurales {
+  background-color: rgb(245, 245, 162);
+  border: 3px solid rgb(75, 30, 4);
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article.booking.casasrurales i {
+  color: rgb(231, 231, 64);
+}
+article.camping {
+  background-color: rgb(153, 235, 143);
+  border: 3px solid rgb(45, 110, 36);
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article.camping i {
+  color: rgb(45, 110, 36);
+}
+
+article.hoteles {
+  background-color: rgb(186, 212, 224);
+  border: 3px solid rgb(8, 81, 99);
+  padding: 10px;
+}
+article.hoteles i {
+  color: rgb(8, 81, 99);
+}
+
+aside.reviews {
+  background-color: rgb(223, 223, 221);
+  border-top: 4px solid rgb(12, 12, 12);
+  border-bottom: 4px solid rgb(12, 12, 12);
+  padding: 30px;
+}
+
+aside.reviews h2 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+aside.reviews header {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+aside.reviews i.fa-user {
+  font-size: 60px;
+  color: rgb(12, 12, 12);
+}
+
+aside.reviews i.fa-star {
+  font-size: 20px;
+  color: white;
+}
+
+aside.reviews p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+aside.reviews article {
+  margin-bottom: 30px;
+}
+
+aside.reviews i.fa-star:hover {
+  color: rgb(255, 255, 0);
+  cursor: pointer;
+}

@@ -1,0 +1,270 @@
+table.example1 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+table.example1,
+table.example1 td,
+table.example1 td,
+table.example1 th {
+  border: 0;
+  border-spacing: 0;
+}
+table.example1 td,
+table.example1 th {
+  padding: 15px 70px;
+  text-align: center;
+  font-weight: normal;
+}
+table.example1 thead {
+  background-color: black;
+  color: white;
+}
+table.example1 tbody tr:nth-child(odd) {
+  background-color: rgb(212, 213, 214);
+}
+table.example2 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  border-top: 3px solid rgb(6, 153, 116);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 3px solid rgb(6, 153, 116);
+  border-spacing: 0;
+  border-collapse: separate;
+  overflow: hidden;
+}
+table.example2 td,
+table.example2 th {
+  padding: 10px 30px;
+  text-align: center;
+}
+table.example2 thead {
+  background-color: rgb(6, 153, 116);
+  color: white;
+  font-weight: bold;
+}
+table.example2 tbody tr:nth-of-type(2) {
+  background-color: rgb(243, 248, 246);
+  font-weight: bold;
+}
+table.example3 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  text-align: center;
+  border: 1px solid black;
+  border-spacing: 0;
+}
+table.example3 thead {
+  background-color: black;
+  color: white;
+}
+table.example3 tbody th {
+  background-color: rgb(84, 84, 248);
+  font-weight: bold;
+  color: white;
+}
+table.example3 tbody td.high {
+  background-color: rgb(250, 215, 16);
+  font-weight: bold;
+}
+table.example3 td,
+table.example3 th {
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: normal;
+}
+table.example3 tbody tr:nth-child(even) {
+  background-color: rgb(212, 213, 214);
+}
+table.example3 tbody tr:nth-child(even) th {
+  background-color: rgb(36, 83, 170);
+}
+table.example6 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  border-spacing: 0 2px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  text-align: left;
+}
+table.example6 td,
+table.example6 th {
+  padding: 5px 20px;
+  font-weight: normal;
+}
+table.example6 tbody tr {
+  background-color: rgb(35, 39, 43);
+  color: rgb(97, 95, 95);
+}
+table.example6 tbody td p {
+  font-size: 6px;
+}
+
+table.example6 input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #4b4a4a;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+table.example6 input[type="checkbox"]:checked::after {
+  content: "✔";
+  color: #4b4a4a;
+  font-size: 12px;
+  position: absolute;
+  top: -2px;
+  left: 1px;
+}
+table.example9 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  border-spacing: 0;
+}
+table.example9,
+table.example9 td,
+table.example9 td,
+table.example9 th {
+  font-size: 12px;
+  padding: 20px 50px;
+}
+table.example9 th {
+  font-weight: normal;
+}
+table.example9 tbody tr:nth-child(odd) {
+  background-color: rgb(212, 213, 214);
+}
+table.example9 tbody th {
+  font-weight: bold;
+}
+table.example9 a.btn {
+  background-color: rgb(139, 143, 145);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  color: black;
+  border-radius: 2px;
+}
+table.example9 a.btn.btn--progress {
+  background-color: rgb(7, 165, 28);
+  color: white;
+}
+table.example9 a.btn.btn--progress:hover {
+  background-color: rgb(12, 105, 25);
+  color: white;
+}
+table.example9 a.btn.btn--open {
+  background-color: rgb(236, 214, 14);
+  color: black;
+}
+table.example9 a.btn.btn--open:hover {
+  background-color: rgb(146, 133, 14);
+  color: black;
+}
+table.example9 a.btn.btn--onhold {
+  background-color: rgb(236, 14, 32);
+  color: white;
+}
+table.example9 a.btn.btn--onhold:hover {
+  background-color: rgb(134, 7, 18);
+  color: white;
+}
+table.example7 {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  border-spacing: 0;
+  border: 1px solid blue;
+}
+table.example7 td,
+table.example7 th {
+  font-size: 12px;
+  padding: 20px 50px;
+  text-align: center;
+}
+table.example7 th {
+  font-weight: normal;
+}
+table.example7 tbody th {
+  background-color: rgb(212, 213, 214);
+  font-weight: bold;
+}
+table.example7 a.btn {
+  background-color: rgb(53, 33, 240);
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  color: white;
+}
+table.example7 thead th {
+  background-color: rgb(53, 33, 240);
+  color: white;
+  font-weight: bold;
+}
+table.example7 tbody td:nth-child(2n + 1) {
+  background-color: rgb(212, 213, 214);
+}

@@ -1,0 +1,137 @@
+ul.example1 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 350px;
+  color: #4e4e4e;
+}
+ul.example1 li {
+  padding: 10px 20px;
+}
+ul.example1 li + li {
+  border-top: 1px solid rgb(197, 202, 211);
+}
+ul.example1 a {
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+/* Ejemplo 2 */
+ul.example2 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 330px;
+  color: #4e4e4e;
+  border: 1px solid rgb(197, 202, 211);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+ul.example2 li + li {
+  border-top: 1px solid rgb(197, 202, 211);
+}
+ul.example2 a {
+  color: #4e4e4e;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+ul.example2 a:hover {
+  background-color: rgb(55, 128, 211);
+  color: white;
+}
+
+ul.example2 li.active a {
+  background-color: rgb(55, 128, 211);
+  color: white;
+}
+
+/* Ejemplo 3 */
+ul.example3 {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  width: 270px;
+  color: #4e4e4e;
+  border: 1px solid rgb(197, 202, 211);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+ul.example3 li {
+  position: relative;
+}
+
+ul.example3 li + li {
+  border-top: 1px solid rgb(197, 202, 211);
+}
+ul.example3 a {
+  color: #4e4e4e;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+ul.example3 li span {
+  position: absolute;
+  right: 10px;
+  font-size: 8px;
+  display: inline-block;
+  background-color: rgb(55, 128, 211);
+  color: white;
+  padding: 2px 5px;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+ul.example3 li:hover a {
+  background-color: rgb(55, 128, 211);
+  color: white;
+}
+
+ul.example3 li:hover span {
+  background-color: white;
+  color: #4e4e4e;
+}
+
+/* Ejemplo 4 */
+ul.example4 {
+  list-style-image: url("../img/vino16.png");
+}
+
+/* Ejemplo 5 */
+ul.example5 {
+  counter-reset: step-counter;
+  list-style: none;
+  width: 300px;
+}
+
+ul.example5 li::before {
+  counter-increment: step-counter;
+  content: counter(step-counter);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+ul.example5 li {
+  padding: 10px 20px;
+}
+ul.example5 li + li {
+  border-top: 1px solid rgb(197, 202, 211);
+}
+ul.example5 a {
+  color: #4e4e4e;
+  text-decoration: none;
+}

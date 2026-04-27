@@ -1,0 +1,208 @@
+.mainContainer {
+  background-color: white;
+  border: 1px solid #f50808;
+  width: 300px;
+  height: 180px;
+  color: white;
+}
+
+.mainContainer div:first-child {
+  background-color: #0acca2;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(2) {
+  background-color: hsl(212, 57%, 54%);
+  width: 12px;
+}
+
+.mainContainer div:nth-child(3) {
+  background-color: #a76999;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(4) {
+  background-color: #4b4848;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(5) {
+  background-color: #e2d631;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(6) {
+  background-color: #e29b31;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(7) {
+  background-color: #e23131;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(8) {
+  background-color: #92daec;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(9) {
+  background-color: #31e29e;
+  width: 12px;
+}
+
+.mainContainer div:nth-child(10) {
+  background-color: #158a80;
+  width: 15px;
+}
+
+/* Ejercicio 1 */
+
+.mainContainer.ejercicio1 {
+  display: flex;
+}
+
+.mainContainer.ejercicio1 div {
+  font-size: 12px;
+}
+
+/* Ejercicio 2 */
+.mainContainer.ejercicio2 {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: 0;
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 300px;
+  height: 150px;
+}
+
+.mainContainer.ejercicio2 div {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ejercicio 3 */
+.mainContainer.ejercicio3 {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 150px;
+}
+
+.mainContainer.ejercicio3 div {
+  width: 33.33%;
+  text-align: center;
+}
+
+/* Ejercicio 4 */
+.mainContainer.ejercicio4 {
+  display: flex;
+  max-height: 20px;
+}
+.mainContainer.ejercicio4 div {
+  flex: 1;
+  text-align: center;
+}
+.mainContainer.ejercicio4 div:nth-child(5) {
+  order: -1;
+}
+.mainContainer.ejercicio4 div:nth-child(6) {
+  order: 1;
+}
+
+/* Ejercicio 5 */
+.mainContainer.ejercicio5 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0;
+  justify-content: space-between;
+}
+
+.mainContainer.ejercicio5 div {
+  width: 100%;
+  height: 5px;
+}
+
+/* Ejercicio 6 */
+.mainContainer.ejercicio6 {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.mainContainer.ejercicio6 div {
+  padding: 4px 2px;
+}
+
+.mainContainer.ejercicio6 div:first-child {
+  font-size: 1px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(2) {
+  font-size: 10px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(3) {
+  font-size: 20px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(4) {
+  font-size: 30px;
+}
+
+.mainContainer.ejercicio6 div:nth-child(5) {
+  font-size: 1px;
+}
+.mainContainer.ejercicio6 div:nth-child(6) {
+  font-size: 18px;
+}
+.mainContainer.ejercicio6 div:nth-child(7) {
+  font-size: 18px;
+}
+.mainContainer.ejercicio6 div:nth-child(8) {
+  font-size: 18px;
+}
+.mainContainer.ejercicio6 div:nth-child(9) {
+  font-size: 18px;
+}
+.mainContainer.ejercicio6 div:nth-child(10) {
+  font-size: 15px;
+}
+
+/* Ejercicio 7 */
+.mainContainer.ejercicio7 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainContainer.ejercicio7 div {
+  width: 33.33%;
+  text-align: center;
+}
+
+/* Ejercicio 8 */
+.mainContainer.ejercicio8 {
+  display: flex;
+  align-items: start;
+}
+
+.mainContainer.ejercicio8 div {
+  flex: 1;
+  text-align: center;
+}
+
+.mainContainer.ejercicio8 div:nth-child(2) {
+  align-self: stretch;
+}
+
+.mainContainer.ejercicio8 div:nth-child(6) {
+  align-self: center;
+}
+
+.mainContainer.ejercicio8 div:nth-child(9) {
+  align-self: end;
+  padding-bottom: 5px;
+}

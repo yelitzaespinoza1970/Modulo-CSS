@@ -1,0 +1,121 @@
+nav.flaticon img {
+  width: 20px;
+}
+
+nav.google a:visited,
+nav.google a {
+  color: red;
+}
+
+nav.google a:hover {
+  color: blue;
+}
+
+nav.fontawesome i {
+  color: purple;
+}
+nav.fontawesome i:hover {
+  color: orange;
+}
+nav.fontawesome i:visited {
+  color: green;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?2rj94v");
+  src:
+    url("../fonts/icomoon.eot?2rj94v#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?2rj94v") format("truetype"),
+    url("../fonts/icomoon.woff?2rj94v") format("woff"),
+    url("../fonts/icomoon.svg?2rj94v#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home2:before {
+  content: "\e901";
+}
+.icon-exit:before {
+  content: "\ea14";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+
+nav.menu a {
+  text-decoration: none;
+  color: #333;
+  opacity: 0.5;
+}
+nav.menu a:hover {
+  opacity: 1;
+}
+
+@font-face {
+  font-family: "icomoon_custom";
+  src: url("../fonts/icomoon_custom.eot?2rj94v");
+  src:
+    url("../fonts/icomoon_custom.eot?2rj94v#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon_custom.ttf?2rj94v") format("truetype"),
+    url("../fonts/icomoon_custom.woff?2rj94v") format("woff"),
+    url("../fonts/icomoon_custom.svg?2rj94v#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="iconcustom-"],
+[class*=" iconcustom-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon_custom" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconcustom-home2:before {
+  content: "\e901";
+}
+.iconcustom-exit:before {
+  content: "\ea14";
+}
+.iconcustom-facebook2:before {
+  content: "\ea91";
+}
+.iconcustom-instagram:before {
+  content: "\ea92";
+}
+.iconcustom-youtube:before {
+  content: "\ea9d";
+}

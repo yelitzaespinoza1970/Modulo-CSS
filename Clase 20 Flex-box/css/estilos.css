@@ -1,0 +1,215 @@
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  padding: 30px 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header nav {
+  background-color: #808080;
+  margin-top: 0;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav ul li a {
+  padding: 10px 20px;
+  display: block;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+header li a:hover {
+  background-color: black;
+  color: white;
+}
+
+header.ejercicio2 nav ul {
+  justify-content: center;
+}
+
+header.ejercicio3 nav ul {
+  justify-content: space-between;
+}
+
+header.ejercicio4 nav {
+  max-width: 200px;
+}
+
+header.ejercicio4 nav ul {
+  flex-direction: column;
+}
+
+header.ejercicio5 h1 {
+  font-size: 20px;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+}
+
+section.catalogo {
+  display: flex;
+  justify-content: start;
+
+  background-color: rgb(184, 181, 181);
+}
+
+section.catalogo img {
+  max-width: 100px;
+  border: 2px dashed black;
+}
+
+header.ejercicio6 h1 {
+  font-size: 20px;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+}
+
+section.catalogo6 {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  background-color: rgb(184, 181, 181);
+  padding: 10px 5px;
+}
+
+section.catalogo6 img {
+  max-width: 100px;
+  border: 1px dashed black;
+}
+
+header.ejercicio7 h1 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: right;
+  font-weight: normal;
+}
+
+.travel {
+  width: 33.33%;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.travel-title {
+  font-size: 16px;
+  text-align: center;
+}
+
+.travel-description {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.travel:first-of-type {
+  background-color: #048d92;
+}
+
+.travel:nth-child(2) {
+  background-color: #049257;
+}
+.travel:last-child {
+  background-color: #939df3;
+}
+.travelcontainer {
+  display: flex;
+  align-items: stretch;
+}
+
+.travel img {
+  max-width: 100%;
+  aspect-ratio: 20/9;
+}
+
+header.ejercicio8 {
+  background-color: rgb(154, 248, 92);
+  padding-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header.ejercicio8 figure {
+  display: flex;
+  justify-content: center;
+}
+
+header.ejercicio8 figure img {
+  max-width: 100px;
+}
+header.ejercicio8 h2 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #414040;
+  font-weight: normal;
+}
+
+nav.menu {
+  background-color: rgb(77, 155, 94);
+  padding: 10px 20px;
+}
+
+nav.menu ul li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+
+nav.menu ul a {
+  text-decoration: underline;
+  color: white;
+  font-size: 14px;
+}
+
+article.casasrurales {
+  background-color: rgb(245, 245, 162);
+  border: 3px solid rgb(75, 30, 4);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+article.casasrurales img {
+  max-width: 100%;
+}
+
+article.camping {
+  background-color: rgb(153, 235, 143);
+  border: 3px solid rgb(45, 110, 36);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article.camping img {
+  max-width: 100%;
+}
+
+article.hoteles {
+  background-color: rgb(186, 212, 224);
+  border: 3px solid rgb(8, 81, 99);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article.hoteles img {
+  max-width: 100%;
+}
+
+aside.reviews {
+  background-color: rgb(223, 223, 221);
+  border: 3px solid rgb(85, 84, 84);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

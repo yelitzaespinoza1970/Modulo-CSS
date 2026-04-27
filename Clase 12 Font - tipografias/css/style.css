@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Akronim";
+  src: url("../font/Akronim-Regular.eot");
+  src:
+    url("../font/Akronim-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/Akronim-Regular.woff2") format("woff2"),
+    url("../font/Akronim-Regular.woff") format("woff"),
+    url("../font/Akronim-Regular.ttf") format("truetype"),
+    url("../font/Akronim-Regular.svg#Akronim-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*El primer parrafo tiene una Tipografia Verdana*/
+p:first-of-type {
+  font-family: Verdana, sans-serif;
+}
+
+/* El segundo parrafo tiene una Tipografia Didot */
+p:nth-of-type(2) {
+  font-family: Didot, serif;
+}
+
+/* El tercer parrafo tiene una Tipografia Fremono */
+p:nth-of-type(3) {
+  font-family: Freemono, monospace;
+}
+
+/* El cuarto parrafo tiene una Tipografia Roboto */
+p:nth-of-type(4) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+/* El quinto parrafo tiene una Tipografia Akronim */
+p:nth-of-type(5) {
+  font-family: "Akronim";
+  font-size: 24px;
+}
+
+/* El sexto parrafo tiene una Tipografia Montserrat */
+p:last-of-type {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}

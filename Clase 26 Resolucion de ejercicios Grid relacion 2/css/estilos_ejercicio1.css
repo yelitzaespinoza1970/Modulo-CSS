@@ -1,0 +1,70 @@
+.biggrid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  background: linear-gradient(to right, rgb(207, 54, 79), rgb(139, 73, 177));
+  padding: 10px;
+}
+
+[class^="box-"] {
+  background-color: rgb(214, 145, 17);
+  color: rgb(17, 17, 17);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-6 {
+  grid-column: 1 / span 6;
+  grid-row: 2 / span 1;
+  background-color: rgb(115, 115, 243);
+}
+.box-8 {
+  grid-column: span 2;
+  background-color: rgb(201, 65, 65);
+}
+.box-9,
+.box-27 {
+  grid-row: span 2;
+  background-color: rgb(117, 245, 155);
+}
+
+.box-12 {
+  grid-column: 1 / span 6;
+  grid-row: 3 / span 1;
+  background-color: rgb(115, 115, 243);
+}
+
+.box-16 {
+  grid-column: span 2;
+  background-color: rgb(201, 65, 65);
+}
+
+.box-18 {
+  grid-column: 5 / span 6;
+  grid-row: 4 / span 2;
+  background-color: rgb(86, 207, 62);
+}
+
+.box-24 {
+  grid-column: 2 / span 2;
+  grid-row: 5 / span 1;
+  background-color: rgb(201, 65, 65);
+}
+
+.box-30 {
+  grid-column: 5 / span 6;
+  grid-row: 6 / span 1;
+  background-color: rgb(115, 115, 243);
+}
+
+.box-32 {
+  grid-column: 3 / span 2;
+  grid-row: 7 / span 1;
+  background-color: rgb(201, 65, 65);
+}

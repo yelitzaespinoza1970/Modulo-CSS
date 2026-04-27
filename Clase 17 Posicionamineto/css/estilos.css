@@ -1,0 +1,208 @@
+.ejercicio1 {
+  background-color: rgb(173, 173, 171);
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.ejercicio1 div.red {
+  width: 40%;
+  height: 40px;
+}
+
+.ejercicio1 div.blue {
+  width: 40%;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.ejercicio1 div.green {
+  position: absolute;
+  width: 40%;
+  height: 100px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.ejercicio1 div.yellow {
+  width: 40%;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.ejercicio2 {
+  background-color: rgb(173, 173, 171);
+  border: 1px solid black;
+  font-size: 30px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+.ejercicio2 div.red {
+  width: 20%;
+  height: 60px;
+}
+
+.ejercicio2 div.blue {
+  width: 20%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.ejercicio2 div.green {
+  position: absolute;
+  width: 20%;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+.ejercicio2 div.yellow {
+  width: 20%;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ejercicio3 {
+  background-color: rgb(173, 173, 171);
+  border: 1px solid black;
+  font-size: 30px;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+.ejercicio3 div.red {
+  width: 40%;
+  height: 60px;
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+  z-index: 4;
+}
+
+.ejercicio3 div.blue {
+  width: 60%;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  z-index: 2;
+}
+
+.ejercicio3 div.green {
+  width: 30%;
+  height: 80px;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  z-index: 3;
+}
+.ejercicio3 div.yellow {
+  width: 40%;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  z-index: 3;
+}
+
+.ejercicio4 {
+  background-color: rgb(173, 173, 171);
+  border: 1px solid black;
+  font-size: 0;
+  width: 300px;
+  height: 200px;
+}
+.ejercicio4 div.red {
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+  font-size: 30px;
+}
+
+.ejercicio4 div.blue {
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+  font-size: 30px;
+}
+
+.ejercicio4 div.green {
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+  font-size: 30px;
+}
+.ejercicio4 div.yellow {
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+  font-size: 30px;
+}
+
+.ejercicio5 {
+  background-color: rgb(173, 173, 171);
+  border: 1px solid black;
+  font-size: 0;
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+  position: relative;
+}
+.ejercicio5 div.red {
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+  position: absolute;
+}
+
+.ejercicio5 div.blue {
+  width: 20%;
+  height: 240px;
+  font-size: 30px;
+  top: 10px;
+  position: absolute;
+  left: 20%;
+}
+
+.ejercicio5 div.green {
+  width: 20%;
+  height: 240px;
+  font-size: 30px;
+  right: 60px;
+  position: absolute;
+  bottom: 10px;
+}
+.ejercicio5 div.yellow {
+  width: 80%;
+  height: 50px;
+  font-size: 30px;
+  bottom: 30px;
+  position: absolute;
+  left: 30px;
+}

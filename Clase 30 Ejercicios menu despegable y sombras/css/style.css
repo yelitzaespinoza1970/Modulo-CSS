@@ -1,0 +1,134 @@
+/*
+ul.example1 {
+  margin: 0px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  gap: 60px;
+  background-color: rgb(85, 180, 197);
+  list-style: none;
+ width: 350px;
+ margin-top: 20px;
+}
+
+ul.example1 li a {
+  text-decoration: none;
+  color: white;
+}
+*/
+body {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 16px;
+}
+
+nav.drop > ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+nav.drop > ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(73, 172, 197);
+  display: block;
+  padding: 15px 35px;
+  font-weight: 300;
+}
+
+nav.drop > ul > li a:hover {
+  background-color: black;
+}
+
+ul.dropdown {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+ul.dropdown a {
+  background-color: black;
+}
+
+nav.drop > ul > li:hover ul.dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+ul.dropdown a:hover {
+  background-color: rgb(73, 172, 197);
+}
+
+h3.text-1 {
+  background-color: rgb(93, 233, 214);
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  padding: 40px 30px;
+  color: white;
+  font-size: 80px;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+h3.text-2 {
+  background-color: #fff3cd;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  padding: 40px 30px;
+  color: white;
+  font-size: 80px;
+  text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+h3.text-3 {
+  background-color: rgb(93, 233, 214);
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  padding: 40px 30px;
+  color: white;
+  font-size: 80px;
+  text-shadow:
+    -10px 20px 0px rgba(0, 0, 0, 0.1),
+    -7px 10px 0px rgba(0, 0, 0, 0.3),
+    -4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+h3.text-4 {
+  background-color: #fff3cd;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  padding: 40px 30px;
+  color: white;
+  font-size: 80px;
+  text-shadow: 0px 12px 1px rgba(0, 0, 0, 0.3);
+}
+h3.text-5 {
+  background-color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  width: min-content;
+  padding: 40px 30px;
+  color: #161616;
+  font-size: 80px;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+.box-1 {
+  width: 260px;
+  height: 130px;
+  background-color: rgb(187, 201, 206);
+  margin-top: 50px;
+  margin-left: 13px;
+
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.615);
+  padding: 30px 5px;
+  text-align: center;
+}
+
+.box-1 {
+}
